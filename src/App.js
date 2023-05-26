@@ -1,15 +1,9 @@
 import React from 'react'
-import { Resturant } from './component/Basic/Resturant';
-//import { UseState } from './component/Hooks/UseState';
-// import { UseEffect } from './component/Hooks/UseEffect';
-// import {UseReducer} from './component/Hooks/UseReducer';
+import { Todo } from './component/todoreact/Todo';
 export const App = () => {
   return (
     <div>
-      <Resturant />
-      {/* <UseState/> */}
-      {/* <UseEffect/> */}
-      {/* <UseReducer/> */}
+      <Todo />
     </div>
   )
 }
